@@ -48,17 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(this, ((Button) v).getText(), Toast.LENGTH_SHORT).show();
                 textView.setText(text.toString());
                 break;
-            case R.id.button2:
-                Toast.makeText(this, ((Button) v).getText(), Toast.LENGTH_SHORT).show();
-                textView.setText(text.toString());
-                break;
-            case R.id.button3:
-                Toast.makeText(this, ((Button) v).getText(), Toast.LENGTH_SHORT).show();
-                textView.setText(text.toString());
-                break;
-
         }
-
     }
 
     @Override
@@ -66,7 +56,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String text = ((Button) v).getText().toString();
         TextView textView = (TextView) findViewById(R.id.textView);
         int id = v.getId();
-
 
         switch (id) {
             case R.id.button2:
